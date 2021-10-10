@@ -1,0 +1,11 @@
+int a, _b;
+float c,d;
+
+a = 1 + 2;
+_b = a + 23;
+
+if(z+3)
+    a=3;
+    b=4;
+else
+    z=44.7;
