@@ -18,3 +18,9 @@ int main(int argc, char *argv[]){
     //lexer.printTable();
     return 0;
 }
+
+/* PARA COMPILAR: g++ main.cpp Parser.cpp Lexico/Lexer.cpp -o parser */
+/* PARA EJECUTAR: ./parser prueba */
+/* PARA EJECUTAR EL PROGRAMA ITERATIVO: g++ main.cpp Parser2.cpp Lexico/Lexer.cpp -o parser */
+/* PARA EJECUTAR EL PROGRAMA RECURSIVO: ./parser prueba */
+
