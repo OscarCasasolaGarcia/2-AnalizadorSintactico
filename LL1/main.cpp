@@ -1,7 +1,7 @@
 #include <iostream>
-#include "C:/Users/johnc/OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO/INGENIERIA EN COMPUTACIÓN/7°SEMESTRE/Compiladores/Proyectos/Proyecto1/1AL/Lexer.h"
+#include "Lexico/Lexer.h"
 #include "Parser.h"
-#include "C:/Users/johnc/OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO/INGENIERIA EN COMPUTACIÓN/7°SEMESTRE/Compiladores/Proyectos/Proyecto1/1AL/tokens.h"
+#include "Lexico/tokens.h"
 using namespace std;
 using namespace C_1;
 
@@ -10,7 +10,7 @@ int main(int argc, char *argv[]){
         cout<<"Faltan argumentos"<<endl;
         return EXIT_FAILURE;
     }
-    Lexer lexer("afd");
+    Lexer lexer("Lexico/afd");
     lexer.openFile(string(argv[1]));
     Parser parser(&lexer);
     parser.parse();

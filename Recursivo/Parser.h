@@ -1,10 +1,9 @@
 #ifndef PARSER_H
 #define PARSER_H
-#include "C:/Users/johnc/OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO/INGENIERIA EN COMPUTACIÓN/7°SEMESTRE/Compiladores/Proyectos/Proyecto1/1AL/Lexer.h"
+#include "Lexico/Lexer.h"
 #include <string>
 using namespace std;
-#include "C:/Users/johnc/OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO/INGENIERIA EN COMPUTACIÓN/7°SEMESTRE/Compiladores/Proyectos/Proyecto1/1AL/tokens.h"
-
+#include "Lexico/tokens.h"
 namespace C_1{
     class Parser{
     private:

@@ -2,6 +2,7 @@
 #include <iostream>
 
 /* Este programa va a estar derivando por la izquierda */
+/* ESTE PROGRAMA ES RECURSIVO */
 namespace C_1{
     Parser::Parser(){
     }
